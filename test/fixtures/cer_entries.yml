@@ -1,0 +1,25 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  cer_title: MyText
+  cer_des: 
+  per_name: MyString
+  f_name: MyString
+  m_name: MyString
+  h_w_name: MyString
+  vill_name: MyString
+  ward_no: MyString
+  nid_no: MyString
+  birth_no: MyString
+
+two:
+  cer_title: MyText
+  cer_des: 
+  per_name: MyString
+  f_name: MyString
+  m_name: MyString
+  h_w_name: MyString
+  vill_name: MyString
+  ward_no: MyString
+  nid_no: MyString
+  birth_no: MyString

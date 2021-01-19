@@ -1,0 +1,2 @@
+class CerDefault < ApplicationRecord
+end

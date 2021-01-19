@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  up_name: MyString
+  up_address: MyString
+  cm_name: MyString
+  cm_mobile_no: MyString
+  udc_e_name: MyString
+  upazilla_id: 
+  dis_id: 
+  div_id: 
+
+two:
+  up_name: MyString
+  up_address: MyString
+  cm_name: MyString
+  cm_mobile_no: MyString
+  udc_e_name: MyString
+  upazilla_id: 
+  dis_id: 
+  div_id: 

@@ -1,0 +1,2 @@
+class PublicvController < ApplicationController
+end

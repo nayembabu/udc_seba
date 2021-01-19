@@ -1,0 +1,2 @@
+class CerEntry < ApplicationRecord
+end
