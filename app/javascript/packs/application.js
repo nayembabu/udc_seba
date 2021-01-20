@@ -8,10 +8,29 @@ require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
 
+require("stylesheets/application.scss")
 
-// Uncomment to copy all static images under ../images to the output folder and reference
-// them with the image_pack_tag helper in views (e.g <%= image_pack_tag 'rails.png' %>)
-// or the `imagePath` JavaScript helper below.
-//
-// const images = require.context('../images', true)
-// const imagePath = (name) => images(name, true)
+require("jquery.easing/jquery.easing.js")
+require("aos/dist/aos.js")
+require("jquery-ui-dist/jquery-ui.js")
+require("waypoints/lib/jquery.waypoints.js")
+require("counterup/jquery.counterup.js")
+require("isotope-layout/js/isotope.js")
+require("venobox/venobox/venobox.js")
+require("owl.carousel/dist/owl.carousel.js")
+
+require("packs/f_js")
+
+
+// jquery
+import $ from 'jquery';
+
+global.$ = $
+global.jQuery = $
+
+
+require('jquery-ui');
+
+// jquery-ui theme
+require.context('file-loader?name=[path][name].[ext]&context=node_modules/jquery-ui-dist!jquery-ui-dist', true, /jquery-ui\.css/);
+require.context('file-loader?name=[path][name].[ext]&context=node_modules/jquery-ui-dist!jquery-ui-dist', true, /jquery-ui\.theme\.css/);
